@@ -1,0 +1,47 @@
+.btn-group .button {
+  background-color:#82AC85;
+  border: 12px solid #A9C7AC;
+  border-radius: 20px;
+  color: white;
+  height: 200px;
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Nunito sans', sans-serif;
+  word-wrap: break-word;
+  cursor: pointer;
+  float: left;
+}
+
+
+.btn-group .button:hover {
+    background: #E2CfC9;
+    color: #2F3537;
+}
+
+.buttontext {
+    color: #2F3537;
+    display: block;
+    width: 100%;
+}
+
+.buttontext:hover{
+    background-color: #E2CfC9;
+    color: #2F3537;
+}
+
+/*responsive button row > goes to 2x2 on tablet and mobile*/
+
+@media all and (min-width:501px) and (max-width:1199px) {
+    .btn-group .button {
+        width: 50%;
+    }
+}
+
+@media all and (max-width:600px) {
+    .btn-group .button {
+        width: 50%;
+    }
+}
